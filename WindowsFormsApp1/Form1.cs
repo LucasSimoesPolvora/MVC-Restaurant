@@ -22,6 +22,12 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Order order = new Order();
+            order.Name = this.Name.Text;
+            order.Surname = this.Surname.Text;
+            order.Dish = this.dish.SelectedIndex;
+            order.Drink = this.drink.SelectedIndex;
+
             MessageBox.Show("jalsdkla");
         }
     }

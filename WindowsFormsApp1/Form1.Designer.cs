@@ -30,13 +30,13 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Name = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.Surname = new System.Windows.Forms.TextBox();
+            this.dish = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.drink = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -59,12 +59,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox1
+            // Name
             // 
-            this.textBox1.Location = new System.Drawing.Point(85, 87);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
+            this.Name.Location = new System.Drawing.Point(85, 87);
+            this.Name.Name = "Name";
+            this.Name.Size = new System.Drawing.Size(100, 20);
+            this.Name.TabIndex = 2;
             // 
             // label2
             // 
@@ -84,25 +84,25 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Nom";
             // 
-            // textBox2
+            // Surname
             // 
-            this.textBox2.Location = new System.Drawing.Point(258, 87);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 5;
+            this.Surname.Location = new System.Drawing.Point(258, 87);
+            this.Surname.Name = "Surname";
+            this.Surname.Size = new System.Drawing.Size(100, 20);
+            this.Surname.TabIndex = 5;
             // 
-            // comboBox1
+            // dish
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.dish.FormattingEnabled = true;
+            this.dish.Items.AddRange(new object[] {
             "Burger",
             "Spaghetti",
             "Bol de céréales",
             "Aloïs"});
-            this.comboBox1.Location = new System.Drawing.Point(27, 180);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(198, 21);
-            this.comboBox1.TabIndex = 6;
+            this.dish.Location = new System.Drawing.Point(27, 180);
+            this.dish.Name = "dish";
+            this.dish.Size = new System.Drawing.Size(198, 21);
+            this.dish.TabIndex = 6;
             // 
             // label4
             // 
@@ -113,18 +113,18 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Choisissez votre plat";
             // 
-            // comboBox2
+            // drink
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.drink.FormattingEnabled = true;
+            this.drink.Items.AddRange(new object[] {
             "Coca Cola",
             "Pepsi",
             "Eau",
             "Jus d\'orange"});
-            this.comboBox2.Location = new System.Drawing.Point(27, 255);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(198, 21);
-            this.comboBox2.TabIndex = 8;
+            this.drink.Location = new System.Drawing.Point(27, 255);
+            this.drink.Name = "drink";
+            this.drink.Size = new System.Drawing.Size(198, 21);
+            this.drink.TabIndex = 8;
             // 
             // label5
             // 
@@ -141,13 +141,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(386, 450);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.drink);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.dish);
+            this.Controls.Add(this.Surname);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.Name);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -161,13 +161,13 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Name;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox Surname;
+        private System.Windows.Forms.ComboBox dish;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox drink;
         private System.Windows.Forms.Label label5;
     }
 }
