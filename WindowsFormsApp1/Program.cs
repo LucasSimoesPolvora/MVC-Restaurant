@@ -21,6 +21,10 @@ namespace WindowsFormsApp1
             Controler controler = new Controler();
             Form1 view = new Form1();
 
+            model.Controler = controler;
+            view.Controler = controler;
+            controler.View = view;
+            controler.Model = model;
 
             Application.Run(view);
         }
