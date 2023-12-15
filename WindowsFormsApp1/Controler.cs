@@ -11,6 +11,7 @@ namespace WindowsFormsApp1
     {
         private Model _model;
         private Form1 _view;
+        string msg;
 
         public Model Model { get => _model; set => _model = value; }
         public Form1 View { get => _view; set => _view = value; }
@@ -19,11 +20,11 @@ namespace WindowsFormsApp1
         {
             if (Model.ProcessOrder(order))
             {
-                MessageBox.Show("Commande effectuée");
+                View.displaySuccess("Commande effectuée");
             }
             else
             {
-                MessageBox.Show(Model.getError());
+                View.displayError(Model.getError());
             }
         }
     }

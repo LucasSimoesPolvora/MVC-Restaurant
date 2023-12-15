@@ -30,5 +30,15 @@ namespace WindowsFormsApp1
 
             Controler.processOrder(order);
         }
+
+        public void displayError(string msg)
+        {
+            MessageBox.Show(msg, "error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        public void displaySuccess(string msg)
+        {
+            MessageBox.Show(msg, "Success", MessageBoxButtons.OK);
+        }
     }
 }
