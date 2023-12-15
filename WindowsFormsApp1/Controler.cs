@@ -23,7 +23,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Erreur dans la commande. La commande n'a pas pu être traitée");
+                MessageBox.Show(Model.getError());
             }
         }
     }
