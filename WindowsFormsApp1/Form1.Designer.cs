@@ -98,7 +98,8 @@
             "1. Burger",
             "2. Spaghetti",
             "3. Bol de céréales",
-            "4. Aloïs"});
+            "4. Aloïs",
+            "5. Pizza"});
             this.dish.Location = new System.Drawing.Point(27, 180);
             this.dish.Name = "dish";
             this.dish.Size = new System.Drawing.Size(198, 21);
@@ -150,7 +151,7 @@
             this.Controls.Add(this.Name);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            
+            this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -11,5 +11,17 @@ namespace WindowsFormsApp1
         private Controler _controler;
 
         public Controler Controler { get => _controler; set => _controler = value; }
+
+        public bool ProcessOrder(Order order) 
+        {
+            if (order.Name == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 }

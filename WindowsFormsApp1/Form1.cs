@@ -28,7 +28,7 @@ namespace WindowsFormsApp1
             order.Dish = this.dish.SelectedIndex;
             order.Drink = this.drink.SelectedIndex;
 
-            MessageBox.Show("jalsdkla");
+            Controler.processOrder(order);
         }
     }
 }
