@@ -8,7 +8,7 @@ namespace WindowsFormsApp1
 {
     public class Model
     {
-        private Controler _controler = new Controler();
+        private Controler _controler;
 
         public Controler Controler { get => _controler; set => _controler = value; }
     }

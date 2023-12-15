@@ -14,9 +14,6 @@ namespace WindowsFormsApp1
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-
             Model model = new Model();
             Controler controler = new Controler();
             Form1 view = new Form1();

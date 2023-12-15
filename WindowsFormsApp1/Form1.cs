@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        private Controler _controler = new Controler();
+        private Controler _controler;
 
         public Controler Controler { get => _controler; set => _controler = value; }
         public Form1()
