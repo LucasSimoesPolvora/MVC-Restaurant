@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp1
 {
-    internal class Model
+    public class Model
     {
+        Controler _controler = new Controler();
+
+        public Controler Controler { get => _controler; set => _controler = value; }
     }
 }

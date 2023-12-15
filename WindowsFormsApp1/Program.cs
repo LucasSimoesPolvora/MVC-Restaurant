@@ -16,7 +16,13 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+
+            Model model = new Model();
+            Controler controler = new Controler();
+            Form1 view = new Form1();
+
+
+            Application.Run(view);
         }
     }
 }
