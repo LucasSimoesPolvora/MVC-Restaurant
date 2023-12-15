@@ -95,10 +95,10 @@
             // 
             this.dish.FormattingEnabled = true;
             this.dish.Items.AddRange(new object[] {
-            "Burger",
-            "Spaghetti",
-            "Bol de céréales",
-            "Aloïs"});
+            "1. Burger",
+            "2. Spaghetti",
+            "3. Bol de céréales",
+            "4. Aloïs"});
             this.dish.Location = new System.Drawing.Point(27, 180);
             this.dish.Name = "dish";
             this.dish.Size = new System.Drawing.Size(198, 21);
@@ -117,10 +117,10 @@
             // 
             this.drink.FormattingEnabled = true;
             this.drink.Items.AddRange(new object[] {
-            "Coca Cola",
-            "Pepsi",
-            "Eau",
-            "Jus d\'orange"});
+            "1. Coca Cola",
+            "2. Pepsi",
+            "3. Eau",
+            "4. Jus d\'orange"});
             this.drink.Location = new System.Drawing.Point(27, 255);
             this.drink.Name = "drink";
             this.drink.Size = new System.Drawing.Size(198, 21);
