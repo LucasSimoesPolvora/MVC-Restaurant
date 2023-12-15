@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,19 @@ namespace WindowsFormsApp1
 
         public bool ProcessOrder(Order order) 
         {
-            if (order.Name == null)
+            if (order.Name == "")
+            {
+                return false;
+            }
+            else if(order.Surname == "")
+            {
+                return false;
+            }
+            else if (order.Drink == -1)
+            {
+                return false;
+            }
+            else if(order.Drink == -1)
             {
                 return false;
             }

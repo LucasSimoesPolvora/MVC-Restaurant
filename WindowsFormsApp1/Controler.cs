@@ -21,6 +21,10 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show("Commande effectuée");
             }
+            else
+            {
+                MessageBox.Show("Erreur dans la commande. La commande n'a pas pu être traitée");
+            }
         }
     }
 }
